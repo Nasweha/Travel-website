@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!--  stylesheet link -->
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <!-- bootstrap link -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- fontawspme link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+  <div class="header">
+    <!-- <div class="nav-top-bar"> -->
+      <div class="container-fluid">
+        <div class="text-container">
+          <!-- navbar -->
+          <div class="navbar-container">
+            <nav class="navbar navbar-expand-lg ">
+              <div class="container-fluid">
+                <h3 class="heading-log">TRAV<span>ENTURE</span></h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link " aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#destination">DESTINATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#packages">PACKAGES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#service">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#review">TESTIMONIALS</a>
+                    </li>
+
+                    <div class="login"><a href="#book" class="login-button">Book a Trip</a></div>
+
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- nav end -->
+
+  <!------------------------------------------------- home -------------------------------------------- -->
+
+
+  <section id="home">
+
+       
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./IMAEGS/CR14.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fs-1 font-monospace f-light text-light pt-50 heading">Travel far, travel wide, travel deep</h5>
+                  
+                  <form class="search-wrapper cf">
+                    <input type="text" placeholder="Search your Destination..." required style="box-shadow: none">
+                    <button class="new-home" type="submit"><i class="fa-solid fa-magnifying-glass fa-bounce"></i></button>
+                  </form>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./IMAEGS/CR5.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fs-1 font-monospace f-light  pt-50 heading">Find beauty in every corner of the world</h5>
+                 
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                      <form class="search-wrapper cf">
+                        <input type="text" placeholder="Search your Destination..." required style="box-shadow: none">
+                        <button class="new-home" type="submit"><i class="fa-solid fa-magnifying-glass fa-bounce"></i></button>
+                      </form>
+                    </div>
+                  </div>
+                  <div>
+    
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./IMAEGS/cr3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="fs-1 font-monospace f-light text-light pt-50 heading">YOUR JOURNEY YOUR STORY</h5>
+                 
+                  <form class="search-wrapper cf">
+                    <input type="text" placeholder="Search your Destination..." required style="box-shadow: none">
+                    <button class="new-home" type="submit"><i class="fa-solid fa-magnifying-glass fa-bounce"></i></button>
+                  </form>
+                  
+                </div>
+              </div>
+              
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button> -->
+          </div>
+     
+
+  </section>
+
+  
+
+  <section id="about">
+
+    <div class="dest-head">
+      <h2>About us</h2>
+    </div>
+    <div class="container-about">
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+
+            <div class="content"> <img class="about-img" src="./IMAEGS/pexels-photo-3102818.jpeg" alt="parachoot"></div>
+
+          </div>
+
+          <div class=" col-lg-6 col-md-6 ">
+            <div class="content-about">
+              <div class="about-cont">
+                <h3 class="about-h3">See the world with Us</h3>
+                <p class="about-p align-items-center">
+                  We’re <span>TRAVENTURE</span>. We work closely with our members to help raise and maintain standards
+                  and build a more sustainable travel industry. Whether it’s for business, a holiday or to see family
+                  and friends, you can relax and enjoy your trip when you book with an <span>TRAVENTURE</span> member.
+
+                  We understand that every trip’s important, meaning you deserve great service, delivered by people you
+                  can trust. No matter what travel adventure you’re looking for, whether it’s hiking the Inca Trail in
+                  Peru, embarking on a safari in South Africa, or an Amazon rainforest expedition in Brazil, we can help
+                  you realise your next dream adventure!
+
+                  Wherever you choose to go, and whatever you’re looking to do, whether it’s cycling, walking, trekking
+                  or multi-activity experiences, our touring and adventure holidays will leave you wanting more!
+
+
+                </p>
+                <BUTTON class=" button ">Read More...</BUTTON>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!------------------ destinations------------------ -->
+  <section id="destination" class="destination">
+
+    <div class="dest-head">
+      <h2>Destinations</h2>
+    </div>
+
+
+    <div class="container-destination">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="content-destination">
+              <div class="img-destination">
+                <img src="./IMAEGS/london.jpg" class="image-destination" alt="barcelona">
+                <div class="overlay">
+                  <div class="place-name">LONDON</div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+            <div class="content-destination">
+              <div class="img-destination">
+                <img src="./IMAEGS/newyork.jpg" class="image-destination" alt="barcelona">
+                <div class="overlay">
+                  <div class="place-name">NEW YORK</div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="content-destination">
+              <div class="img-destination">
+                <img src="./IMAEGS/japan.jpg" class="image-destination" alt="barcelona">
+                <div class="overlay">
+                  <div class="place-name">JAPAN</div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 px-lg-2">
+            <div class="content-destination">
+              <div class="img-destination">
+                <img src="./IMAEGS/tailand.avif" class="image-destination" alt="barcelona">
+                <div class="overlay">
+                  <div class="place-name">THAILAND</div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="content-destination">
+              <div class="img-destination">
+                <img src="./IMAEGS/Maldives.jpg" class="image-destination" alt="barcelona">
+                <div class="overlay">
+                  <div class="place-name">MALDIVES</div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-3 col-md-6">
+            <div class="content-destination">
+              <div class="img-destination">
+                <img src="./IMAEGS/paris.jpg" class="image-destination" alt="barcelona">
+                <div class="overlay">
+                  <div class="place-name">PARIS</div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-3 col-md-6 ">
+            <div class="content-destination">
+              <div class="img-destination">
+                <img src="./IMAEGS/norway.jpg" class="image-destination" alt="barcelona">
+                <div class="overlay">
+                  <div class="place-name">NORWAY</div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 ">
+            <div class="content-destination">
+              <div class="img-destination">
+                <img src="./IMAEGS/greece.jpg" class="image-destination" alt="barcelona">
+                <div class="overlay">
+                  <div class="place-name">GREECE</div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!---------------------------- package------------------------- -->
+  <section id="packages">
+    <div class="dest-head">
+      <h2>Packages</h2>
+    </div>
+
+    <div class="container-packages">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="content-packages">
+              <div class="img-package">
+                <img src="./IMAEGS/packagesbarcelona.jpg" class="image-package" alt="barcelona">
+
+              </div>
+              <div class="content-package-container">
+                <div class="detsils-packages">
+                  <p class="detail-text"><span class="icon-details"><i
+                        class="fa-solid fa-location-dot"></i></span>Barcelona</p>
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-calender-days"></i></span>14
+                    Days</p>
+
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-users"></i></span>5 Person</p>
+                </div>
+                <h4 class="heading-content-package">Barcelona Calling: Your Next Adventure Beckons</h4>
+                <hr>
+                <div class="rating">
+                  <p class="rate"> <span class="stars"><i class="fa-solid fa-star"></i></span>4.8(150)</p>
+                  <h4>$200</h4>
+                </div>
+                <div class="button-pack"><a href="" class="btn-packages">View Details</a></div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-4 col-md-6  mb-5">
+            <div class="content-packages">
+              <div class="img-package">
+                <img src="./IMAEGS/package london.jpg" class="image-package" alt="barcelona">
+
+              </div>
+              <div class="content-package-container">
+                <div class="detsils-packages">
+                  <p class="detail-text"><span class="icon-details"><i
+                        class="fa-solid fa-location-dot"></i></span>London</p>
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-calender-days"></i></span>20
+                    Days</p>
+
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-users"></i></span>5 Person</p>
+                </div>
+                <h4 class="heading-content-package">London Adventures: Dive into the Heart of British Culture</h4>
+                <hr>
+                <div class="rating">
+                  <p class="rate"> <span class="stars"><i class="fa-solid fa-star"></i></span>4.8(200c)</p>
+                  <h4>$200</h4>
+                </div>
+                <div class="button-pack"><a href="" class="btn-packages">View Details</a></div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="content-packages">
+              <div class="img-package">
+                <img src="./IMAEGS/packagerome.jpg" class="image-package" alt="barcelona">
+
+              </div>
+              <div class="content-package-container">
+                <div class="detsils-packages">
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-location-dot"></i></span>Rome
+                  </p>
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-calender-days"></i></span>14
+                    Days</p>
+
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-users"></i></span>5 Person</p>
+                </div>
+                <h4 class="heading-content-package">Roman Delights: Customized Packages for an Authentic Roman
+                  Experience</h4>
+                <hr>
+                <div class="rating">
+                  <p class="rate"> <span class="stars"><i class="fa-solid fa-star"></i></span>4.8(150)</p>
+                  <h4>$200</h4>
+                </div>
+                <div class="button-pack"><a href="" class="btn-packages">View Details</a></div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="content-packages">
+              <div class="img-package">
+                <img src="./IMAEGS/packagetailand.jpg" class="image-package" alt="barcelona">
+
+              </div>
+              <div class="content-package-container">
+                <div class="detsils-packages">
+                  <p class="detail-text"><span class="icon-details"><i
+                        class="fa-solid fa-location-dot"></i></span>Thailand</p>
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-calender-days"></i></span>14
+                    Days</p>
+
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-users"></i></span>5 Person</p>
+                </div>
+                <h4 class="heading-content-package">Thailand Treasures: Experience the Magic of Southeast Asia</h4>
+                <hr>
+                <div class="rating">
+                  <p class="rate"> <span class="stars"><i class="fa-solid fa-star"></i></span>4.8(150)</p>
+                  <h4>$200</h4>
+                </div>
+                <div class="button-pack"><a href="" class="btn-packages">View Details</a></div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-4 col-md-6 mb-5">
+            <div class="content-packages">
+              <div class="img-package">
+                <img src="./IMAEGS/packageturkey.jpg" class="image-package" alt="barcelona">
+
+              </div>
+              <div class="content-package-container">
+                <div class="detsils-packages">
+                  <p class="detail-text"><span class="icon-details"><i
+                        class="fa-solid fa-location-dot"></i></span>Turkey</p>
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-calender-days"></i></span>20
+                    Days</p>
+
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-users"></i></span>5 Person</p>
+                </div>
+                <h4 class="heading-content-package">Explore Turkey: Tailored Escapes to the Crossroads of Cultures</h4>
+                <hr>
+                <div class="rating">
+                  <p class="rate"> <span class="stars"><i class="fa-solid fa-star"></i></span>4.8(200c)</p>
+                  <h4>$200</h4>
+                </div>
+                <div class="button-pack"><a href="" class="btn-packages">View Details</a></div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="content-packages">
+              <div class="img-package">
+                <img src="./IMAEGS/packgindia.jpeg" class="image-package" alt="barcelona">
+
+              </div>
+              <div class="content-package-container">
+                <div class="detsils-packages">
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-location-dot"></i></span>India
+                  </p>
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-calender-days"></i></span>14
+                    Days</p>
+
+                  <p class="detail-text"><span class="icon-details"><i class="fa-solid fa-users"></i></span>5 Person</p>
+                </div>
+                <h4 class="heading-content-package">Indian Treasures: Dive into the Richness of Indian Cultures</h4>
+                <hr>
+                <div class="rating">
+                  <p class="rate"> <span class="stars"><i class="fa-solid fa-star"></i></span>4.8(150)</p>
+                  <h4>$200</h4>
+                </div>
+                <div class="button-pack"><a href="" class="btn-packages">View Details</a></div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- BOOK YOUR TRIP -->
+
+  <section id="book">
+    <!-- <div  class="dest-head" ><h2>Services</h2></div> -->
+
+
+    <div class="overlay1">
+      <div class="container container-book" id="booking">
+
+        <div class="row">
+
+          <div class="col-lg-12 col-md-12">
+            <div class="content-Offer">
+
+              <h3>SPECIAL OFFERS</h3>
+              <h4>Unlock exclusive deals and discounts tailored for your next adventure. Book now and save big!"</h4>
+              <H3>Limited Time Offer: Up to 30% Off!</H3>
+              <!-- <button class="book">BOOK NOW</button> -->
+
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row" id="forms">
+          <div class="col-lg-12 col-md-12 ">
+            <div class="form-head">
+              <h3>Book Your <span>HOLIDAYS</span></h3>
+            </div>
+            <div class="content-book">
+
+              <div class="form">
+                <form action="">
+                  <input type="text" placeholder="Enter your name">
+
+                  <input type="email" placeholder="Enter your email">
+                  <br>
+                  <input type="phone" placeholder="Enter your mobile number">
+
+                  <select name="" id="" value="default">
+                    <option value="default">choose your Destination</option>
+                    <option value="turkey">EUROPE</option>
+                    <option value="turkey">Thailand</option>
+                    <option value="turkey">korea</option>
+                    <option value="turkey">newyork</option>
+                    <option value="turkey">Norway</option>
+                    <option value="turkey">Maldives</option>
+                    <option value="turkey">Bali</option>
+                    <option value="turkey">Japan</option>
+                    <option value="turkey">Turkey</option>
+
+
+                  </select>
+                  <br>
+
+
+                  <input type="date" placeholder="Date">
+                  <input type="number" min="1" max="100" placeholder="numbers of members">
+                  <br>
+                  <button class="book">Submit</button>
+
+                </form>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video-book">
+      <video class="video1" autoplay loop muted>
+        <source src="./IMAEGS/campaign.mp4" type="video/mp4">
+
+      </video>
+    </div>
+  </section>
+
+
+  <!-- service section -->
+
+  <section id="service">
+    <div class="dest-head">
+      <h2>Services</h2>
+    </div>
+    <div class="container container-services">
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 px-lg-2">
+          <div class="content-services">
+            <div class="img-container">
+              <img src="./IMAEGS/package-tour-travel-symbol-clip-art-global-tour-removebg-preview.png"
+                class="img-services" alt="">
+            </div>
+            <h3 class="heading-tour">Worldwide Tour</h3>
+            <p class="para-tour">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus maiores, alias,
+            </p>
+            <a href="" class="btn-services">Read More</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 px-lg-2">
+          <div class="content-services">
+            <div class="img-container">
+              <img src="./IMAEGS/hotel-booking-flat-conceptual-icon-editable-vector-removebg-preview.png"
+                class="img-services" alt="">
+            </div>
+            <h3 class="heading-tour">Hotel Reservations</h3>
+            <p class="para-tour">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus maiores, alias,
+            </p>
+            <a href="" class="btn-services">Read More</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 px-lg-2">
+          <div class="content-services">
+            <div class="img-container">
+              <img
+                src="./IMAEGS/travel-guide-and-tour-with-showing-interesting-places-to-group-of-tourist-for-planning-vacation-in-flat-cartoon-hand-drawn-templates-illustration-vector-removebg-preview.png"
+                class="img-services" alt="">
+            </div>
+            <h3 class="heading-tour">Travel Guides</h3>
+            <p class="para-tour">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus maiores, alias,
+            </p>
+            <a href="" class="btn-services">Read More</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 px-lg-2">
+          <div class="content-services">
+            <div class="img-container">
+              <img src="./IMAEGS/money-removebg-preview.png" class="img-services" alt="">
+            </div>
+            <h3 class="heading-tour">Competetive Pricing</h3>
+            <p class="para-tour">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste possimus maiores, alias,
+            </p>
+            <a href="" class="btn-services">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- service section complete -->
+
+
+  <!--    -----------------------------review section---------------------------- -->
+
+
+  <section id="review">
+    <div class="dest-head">
+      <h2>Testimonials</h2>
+    </div>
+    <div class="container container-review">
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 px-lg-2">
+
+          <div class="content-review">
+            <div class="img-container">
+              <img src="./IMAEGS/rev2.jpeg" class="img-review" alt="">
+            </div>
+            <h4 class="heading-review">DANIEL JACOB</h4>
+            <p class="para-review"> <span>"</span>Booking my London trip was effortless with this website - flights,
+              accommodations, and tours all sorted seamlessly.<span>"</span> </p>
+            <div class="icon-review">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-6 px-lg-2">
+
+          <div class="content-review">
+            <div class="img-container">
+              <img src="./IMAEGS/rev3.webp" class="img-review" alt="">
+            </div>
+            <h4 class="heading-review">ANAND JHON</h4>
+            <p class="para-review"> <span>"</span> Made my last-minute Rome trip stress-free with great flight deals and
+              seamless hotel and transportation booking, highly recommend!<span>"</span> </p>
+            <div class="icon-review">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 px-lg-2">
+
+          <div class="content-review">
+            <div class="img-container">
+              <img src="./IMAEGS/rev4.webp" class="img-review" alt="">
+            </div>
+            <h4 class="heading-review">DENNA MARRY</h4>
+            <p class="para-review"> <span>"</span>Exceptional service and customization for my Turkey trip; support team
+              ensured seamless planning, leaving me delighted.<span>"</span> </p>
+            <div class="icon-review">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 px-lg-2">
+
+          <div class="content-review">
+            <div class="img-container">
+              <img src="./IMAEGS/pexels-photo-774909.jpeg" class="img-review" alt="">
+            </div>
+            <h4 class="heading-review">LIZY DAVID</h4>
+            <p class="para-review"> <span>"</span>This Thailand travel site made planning a breeze; great options and
+              user-friendly interface ensured a fantastic experience.<span>"</span> </p>
+            <div class="icon-review">
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+              <i class="fa-solid fa-star" id="star"></i>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <h3 class="heading-sm-footer">Contact US</h3>
+            <p class="contact-footer">
+              <span class="text-footer"><i class="fa-solid fa-location-dot"></i>123 delhi india</span>
+              <br>
+              <span class="text-footer"><i class="fa-solid fa-envelope"></i>traventure@gmail.com</span>
+              <br>
+              <span class="text-footer"><i class="fa-solid fa-phone"></i>+0987654321</span>
+
+            </p>
+
+
+
+            <H3 class="heading-sm-footer">Follow Us</H3>
+            <div class="social-links">
+
+
+              <div class="icon"><a href=""><i class="fa-brands fa-twitter"></i></a></div>
+              <div class="icon"><a href=""><i class="fa-brands fa-instagram"></i></a></div>
+              <div class="icon"><a href=""><i class="fa-brands fa-facebook"></i></a></div>
+
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <h3 class="heading-pages"> pages Links</h3>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="footer-link " aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="footer-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="footer-link" href="#">DESTINATIONS</a>
+              </li>
+              <li class="nav-item">
+                <a class="footer-link" href="#">PACKAGES</a>
+              </li>
+              <li class="nav-item">
+                <a class="footer-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="footer-link" href="#">TESTIMONIALS</a>
+              </li>
+
+            </ul>
+
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <h3 class="heading-sm-footer">Subsribe to our News letter</h3>
+            <form class="search-wrapper cf">
+              <input type="text" placeholder="Enter your email..." required style="box-shadow: none">
+              <button class="news" type="submit">Get Started</button>
+            </form>
+
+          </div>
+
+
+
+        </div>
+        <hr>
+        <p class="bottom">©TRAVENTURE 2024</p>
+
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!--  bootstrap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
